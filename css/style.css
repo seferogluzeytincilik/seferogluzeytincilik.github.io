@@ -1,0 +1,167 @@
+body{
+    font-family: "Marcellus", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Meadowbrook';
+    src: url('/fonts/Meadowbrook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #cc723f;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::selection{
+    background-color: #cc723f;
+    color: black;
+}
+
+header{
+    height: 15vh;
+}
+
+#carousel-section{
+    height: 85vh;
+}
+
+.nav-link:hover{
+    color: #cc723f !important;
+}
+
+.nav-item{
+    font-family: "DM Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.carousel,
+.carousel-inner,
+.carousel-item {
+    height: 100%;
+}
+
+.carousel img,
+.carousel video {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-caption{
+    bottom: 10rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Siyah gölge */
+}
+
+.btn-brown{
+    color: white;
+    background-color: #cc723f;
+    border-radius: 0;
+    padding: 10px 30px;
+}
+
+.btn-brown:hover{
+    background-color: #cc623f;
+    color: white;
+}
+
+.btn-wp{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #25D366;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-wp:hover{
+    background-color: #1b9e4b;
+}
+
+.btn-shopier{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(103, 0, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-shopier:hover{
+    background-color: rgb(63, 0, 255);
+}
+
+.text-wp{
+    color: #25D366 !important; 
+    font-family: "DM Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.text-wp:hover{
+    color: #1b9e4b !important;
+}
+
+.text-shopier{
+    color: rgb(103, 0, 255) !important; 
+    font-family: "DM Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.text-shopier:hover{
+    color: rgb(63, 0, 255) !important;
+}
+
+.btn:active{
+    border-color: transparent !important;
+}
+
+.btn-close:focus{
+    box-shadow: none !important;
+}
+
+#scrollTopBtn{
+    background-color: #cc723f;
+}
+
+#scrollTopBtn:hover{
+    background-color: #cc623f;
+}
+
+.form-control:focus{
+    border-color: transparent;
+    box-shadow: none;
+}
+
+ul li::marker{
+    color: #cc723f;
+}
+
+@media (max-width: 990px){
+    header{
+        height: 20vh;
+    }
+    
+    #carousel-section{
+        height: 80vh;
+    }
+
+    .carousel-caption{
+        bottom: 8rem;
+    }
+}
