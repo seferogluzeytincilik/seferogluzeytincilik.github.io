@@ -153,14 +153,6 @@ ul li::marker{
 }
 
 @media (max-width: 990px){
-    header{
-        height: 20vh;
-    }
-    
-    #carousel-section{
-        height: 80vh;
-    }
-
     .carousel-caption{
         bottom: 8rem;
     }
